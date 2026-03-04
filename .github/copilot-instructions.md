@@ -1,18 +1,18 @@
-# Copilot Workflow Instructions
+## Development Environment
 
-## Getting Started with GitHub Copilot
-1. **Enable GitHub Copilot**: Go to the settings of your GitHub repository and ensure that GitHub Copilot is enabled for your account.  
-2. **Install the Extension**: Make sure you have the GitHub Copilot extension installed in your code editor.
+For detailed setup and development instructions, please refer to our [Development Guide](../docs/how-to-develop.md).
 
-## Using Copilot
-- **Code Completion**: Start typing your code, and Copilot will provide suggestions. You can accept these suggestions to complete your code.
-- **Comment-Based Suggestions**: Write a comment describing the functionality you need, and Copilot will suggest code snippets based on your description.
+### User Interaction
 
-## Tips for Best Results
-- Be clear and descriptive in your comments.
-- Use specific function names and variable names to help Copilot understand the context.
+Consider the following when communicating with the staff.
 
-## Troubleshooting
-If you encounter issues:
-- Check if GitHub Copilot is enabled in your settings.
-- Review the documentation for any updates on usage and features.
+- The staff is not technical. Explain in simple terms as much as possible and avoid software jargon.
+- Any new code must be easy to maintain and understand, without significant coding experience.
+
+## Program architecture
+
+- The website users are the students and teachers. Make sure the user experience is simple.
+- Do not make additional apps or services.
+- Do not make command line tools.
+- Do not create a long single file application. Always use an easy-to-understand directory structure.
+- Only use HTML, CSS, Javascript, and Python. No other languages.
